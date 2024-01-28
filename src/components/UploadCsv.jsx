@@ -74,7 +74,7 @@ const UploadCsv = () => {
           {...getRootProps()}
           className={`border-dashed border-2 rounded-md ${
             isDragActive ? "border-blue-500" : "border-gray-300"
-          } p-8 mb-4 relative`}
+          } p-8 mb-4`}
         >
           <input
             {...getInputProps()}
